@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API GitHub | JS</title>
+</head>
+
+<body>
+    <main>
+        <h1>Github projects</h1>
+        <hr>
+        <article class="body--cards">
+            <section class="body-card"
+                onclick="window.open('https://github.com/DanielSalmeron3b/My-Website/tree/My-Site-PHP', '_blank').focus();">
+                <div class="left-card">
+                    <h3 id="myWebsiteGitHubTitle"></h3>
+                    <p id="myWebsiteGitHubDesc"></p>
+                </div>
+                <div class="right-card">
+                    <p id="myWebsiteGitHubStars"></p>
+                    <p id="myWebsiteGitHubForks"></p>
+                </div>
+            </section>
+
+            <section class="body-card"
+                onclick="window.open('https://github.com/DanielSalmeron3b/weather-app-django', '_blank').focus();">
+                <div class="left-card">
+                    <h3 id="wheaterAppGitHubTitle"></h3>
+                    <p id="wheaterAppGitHubDesc"></p>
+                </div>
+                <div class="right-card">
+                    <p id="wheaterAppGitHubStars"></p>
+                    <p id="wheaterAppGitHubForks"></p>
+                </div>
+            </section>
+        </article>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

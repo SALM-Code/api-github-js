@@ -1,0 +1,29 @@
+:root {
+    --off-white: #fcf4e6;
+    --off-black: #2d2e27;
+    --grey-text: #a1a1a1;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* GitHub Cards */
+.body-card {
+    border: solid 1px #FFF;
+    color: #FFF;
+    background: var(--off-black);
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.left-card p {
+    color: var(--grey-text);
+    margin-top: 6px;
+}
