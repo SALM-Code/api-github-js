@@ -1,7 +1,7 @@
 :root {
-    --off-white: #fcf4e6;
     --off-black: #2d2e27;
     --grey-text: #a1a1a1;
+    --grey-background: #dfdfdf;
 }
 
 * {
@@ -10,10 +10,23 @@
     padding: 0;
 }
 html {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
 }
-
+body {
+    background-color: var(--grey-background);
+}
+main h1{
+    text-align: center;
+}
+hr{
+    margin-top: 8px;
+    background-color: var(--off-black);
+}
 /* GitHub Cards */
+.window-cards{
+    width: 70%;
+    margin: 26px auto 0;
+}
 .body-card {
     border: solid 1px #FFF;
     color: #FFF;
@@ -21,6 +34,7 @@ html {
     border-radius: 4px;
     padding: 8px;
     cursor: pointer;
+    margin-top: 14px;
 }
 
 .left-card p {
